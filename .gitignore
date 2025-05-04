@@ -1,0 +1,53 @@
+# From gitignore.io (Flutter + Python + Firebase + OS)
+# ------------------------------------------------ #
+# Flutter/Dart
+**/android/**/gradle-wrapper.jar
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.packages
+.pub-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Firebase
+**/firebase-debug.log
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ================ ECOTRAILS CUSTOM RULES ================ #
+
+# Firebase Secrets
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# AI/ML Models
+*.h5
+*.tflite
+*.pkl
+/saved_models/
+
+# Local Datasets (keep only processed data)
+/datasets/raw/
+/datasets/temp/
+
+# Flutter Environment Files
+.env
+.env.production
+.env.development
+
+# API Keys (generic pattern)
+*.json
+*.key
+*.pem
+
+# ================ END CUSTOM RULES ================ #
